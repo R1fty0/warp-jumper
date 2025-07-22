@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://dgooxas0i8kde"]
+
+[ext_resource type="Script" uid="uid://qxuetv4347co" path="res://scenes/ui/warp_fuelbar.gd" id="1_bqtgw"]
+
+[node name="WarpFuel" type="MarginContainer"]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -39.0
+offset_top = -40.0
+offset_right = 39.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/margin_bottom = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Warp Fuel"
+
+[node name="ProgressBar" type="ProgressBar" parent="VBoxContainer"]
+layout_mode = 2
+show_percentage = false
+script = ExtResource("1_bqtgw")

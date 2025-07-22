@@ -1,0 +1,7 @@
+res://scenes/main.tscn
+res://scenes/player/player.tscn
+res://addons/kenney_prototype_tools/tool_generator.gd
+res://scenes/player/warp_jumper.gd
+res://scenes/player/player.gd
+res://scenes/ui/warp_fuelbar.tscn
+res://scenes/ui/warp_fuelbar.gd
